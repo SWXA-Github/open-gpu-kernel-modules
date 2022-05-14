@@ -86,7 +86,7 @@ We'll respond via GitHub.
 Note that when submitting a pull request, you will be prompted to accept
 a Contributor License Agreement.
 
-This code base is shared with NVIDIA's proprietary drivers, and various
+This codebase is shared with NVIDIA's proprietary drivers, and various
 processing is performed on the shared code to produce the source code that is
 published here.  This has several implications for the foreseeable future:
 
@@ -94,16 +94,16 @@ published here.  This has several implications for the foreseeable future:
   release.
 
 * We do not expect to be able to provide revision history for individual
-  changes that were made to NVIDIA's shared code base.  There will likely
+  changes that were made to NVIDIA's shared codebase.  There will likely
   only be one git commit per driver release.
 
 * We may not be able to reflect individual contributions as separate
   git commits in the GitHub repository.
 
-* Because the code undergoes various processing prior to publishing here,
+* Because the code undergoes various processing before publishing here,
   contributions made here require manual merging to be applied to the shared
-  code base.  Therefore, large refactoring changes made here may be difficult to
-  merge and accept back into the shared code base.  If you have large
+  codebase.  Therefore, large refactoring changes made here may be difficult to
+  merge and accept back into the shared codebase.  If you have large
   refactoring to suggest, please contact us in advance, so we can coordinate.
 
 
@@ -132,7 +132,7 @@ believe you have discovered a security vulnerability in this software.
 Most of NVIDIA's kernel modules are split into two components:
 
 * An "OS-agnostic" component: this is the component of each kernel module
-  that is independent of operating system.
+  that is independent of the operating system.
 
 * A "kernel interface layer": this is the component of each kernel module
   that is specific to the Linux kernel version and configuration.
